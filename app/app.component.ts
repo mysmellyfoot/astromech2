@@ -26,8 +26,8 @@ const ASTROMECHS: Astromech[] = [
 export class AppComponent {
   title = 'Astromech';
   astromechs = ASTROMECHS;
-  //selectedAstromech: Astromech;
-  //onSelect(astromech: Astromech): void {
-  //  this.selectedAstromech = astromech;
-  //}
+  selectedAstromech: Astromech;
+    onSelect(astromech: Astromech): void {
+    this.selectedAstromech = astromech;
+  }
 }

@@ -1,7 +1,8 @@
 <h1>{{title}}</h1>
 <h2>My Astromechs</h2>
 <ul class="astromechs">
-    <li *ngFor="let astromech of astromechs" >
+    <li *ngFor="let astromech of astromechs" [class.selected]="astromech === selectedAstromech"
+ (click)="onSelect(astromech)" >
         <span class="badge">{{astromech.id}}</span> {{astromech.name}}
     </li>
 </ul>

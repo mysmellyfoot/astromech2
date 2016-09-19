@@ -26,6 +26,9 @@ var AppComponent = (function () {
         this.title = 'Astromech';
         this.astromechs = ASTROMECHS;
     }
+    AppComponent.prototype.onSelect = function (astromech) {
+        this.selectedAstromech = astromech;
+    };
     AppComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
