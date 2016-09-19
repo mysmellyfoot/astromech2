@@ -3,11 +3,8 @@ import { Astromech } from './astromech';
 
 @Component({
   selector: 'my-astromech-detail',
-  template: `<div *ngIf="astromech">
-<h2>{{astromech.name}} details!</h2>
-<div><label>id: </label>{{astromech.id}}</div>
-<div><label>name: </label><input [(ngModel)]="astromech.name" placeholder="name"></div>
-</div>`
+  templateUrl: 'app/astromech-detail.component.html',
+  styleUrls: ['app/astromech-detail.component.css']
 })
 
 export class AstromechDetailComponent {

@@ -20,7 +20,8 @@ var AstromechDetailComponent = (function () {
     AstromechDetailComponent = __decorate([
         core_1.Component({
             selector: 'my-astromech-detail',
-            template: "<div *ngIf=\"astromech\">\n<h2>{{astromech.name}} details!</h2>\n<div><label>id: </label>{{astromech.id}}</div>\n<div><label>name: </label><input [(ngModel)]=\"astromech.name\" placeholder=\"name\"></div>\n</div>"
+            templateUrl: 'app/astromech-detail.component.html',
+            styleUrls: ['app/astromech-detail.component.css']
         }), 
         __metadata('design:paramtypes', [])
     ], AstromechDetailComponent);

@@ -15,7 +15,6 @@ const ASTROMECHS: Astromech[] = [
   { id: 20, name: 'R8D4' }
 ];
 
-
 @Component({
   moduleId: module.id,
   templateUrl: 'app.component.html',
