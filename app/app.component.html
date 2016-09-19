@@ -1,0 +1,8 @@
+<h1>{{title}}</h1>
+<h2>My Astromechs</h2>
+<ul class="astromechs">
+    <li *ngFor="let astromech of astromechs" >
+        <span class="badge">{{astromech.id}}</span> {{astromech.name}}
+    </li>
+</ul>
+<my-astromech-detail [astromech]="selectedAstromech"></my-astromech-detail>
