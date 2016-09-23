@@ -1,11 +1,11 @@
 import { Component, Input } from '@angular/core';
 import { Astromech } from './astromech';
 
-@Component({
-  selector: 'my-astromechs',
+//@Component({
+  //selector: 'my-astromechs',
   //templateUrl: 'app/astromechs.component.html',
   //styleUrls: ['app/astromechs.component.css']
-})
+//})
 
 const ASTROMECHS: Astromech[] = [
   { id: 11, name: 'R2D4' },

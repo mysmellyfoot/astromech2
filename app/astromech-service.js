@@ -9,14 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var HeroService = (function () {
-    function HeroService() {
+var mock_astromechs_1 = require('./mock-astromechs');
+var AstromechService = (function () {
+    function AstromechService() {
     }
-    HeroService = __decorate([
+    AstromechService.prototype.getAstromechs = function () {
+        return Promise.resolve(mock_astromechs_1.ASTROMECHS);
+    };
+    AstromechService = __decorate([
         core_1.Injectable(), 
         __metadata('design:paramtypes', [])
-    ], HeroService);
-    return HeroService;
+    ], AstromechService);
+    return AstromechService;
 }());
-exports.HeroService = HeroService;
+exports.AstromechService = AstromechService;
 //# sourceMappingURL=astromech-service.js.map

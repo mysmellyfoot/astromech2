@@ -1,4 +1,9 @@
 "use strict";
+//@Component({
+//selector: 'my-astromechs',
+//templateUrl: 'app/astromechs.component.html',
+//styleUrls: ['app/astromechs.component.css']
+//})
 var ASTROMECHS = [
     { id: 11, name: 'R2D4' },
     { id: 12, name: 'R2D5' },

@@ -4,8 +4,8 @@ import { Astromech } from './astromech'
 
 @Injectable()
 export class AstromechService {
-      getAstromechs(): Astromech[] {
-          return ASTROMECHS
+      getAstromechs(): Promise<Astromech[]> {
+          return Promise.resolve(ASTROMECHS)
       } 
 }
 
