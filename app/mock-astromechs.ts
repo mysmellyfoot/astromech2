@@ -1,6 +1,6 @@
 import { Astromech } from './astromech';
 export const ASTROMECHS: Astromech[] = [
-    { id: 11, name: 'R2D4' },
+    { id: 12, name: 'R2D4' },
     { id: 12, name: 'R2D5' },
     { id: 13, name: 'R2D6' },
     { id: 14, name: 'R2D7' },
