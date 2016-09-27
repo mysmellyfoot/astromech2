@@ -12,7 +12,6 @@ import { OnInit } from '@angular/core';
     providers: [AstromechService]
 })
 
-
 export class AppComponent implements OnInit {
     ngOnInit(): void { this.getAstromechs();}
     title = 'Astromech';
