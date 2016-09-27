@@ -6,6 +6,6 @@ typings
 .DS_Store
 Thumbs.db
 dist
-
+*.log
 app/**/*.js
 app/**/*.map
