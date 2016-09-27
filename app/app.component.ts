@@ -6,8 +6,8 @@ import { OnInit } from '@angular/core';
 
 @Component({
     moduleId: module.id,
-    templateUrl: 'app.component.html',
-    styleUrls: ['app.component.css'],
+    templateUrl: '../app/app.component.html',
+    styleUrls: ['../app/app.component.css'],
     selector: 'my-app',
     providers: [AstromechService]
 })

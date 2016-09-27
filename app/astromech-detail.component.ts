@@ -3,8 +3,8 @@ import { Astromech } from './astromech';
 
 @Component({
   selector: 'my-astromech-detail',
-  templateUrl: 'app/astromech-detail.component.html',
-  styleUrls: ['app/astromech-detail.component.css']
+  templateUrl: '../app/astromech-detail.component.html',
+  styleUrls: ['../app/astromech-detail.component.css']
 })
 
 export class AstromechDetailComponent {
